@@ -1,0 +1,19 @@
+lh {
+  color:gray;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+li:nth-child(odd) {
+  color: blue;
+}
+li:nth-child(even) {
+  color: orange;
+}
+
+.weightForm > input {
+  margin: 10px;
+}
